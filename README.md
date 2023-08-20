@@ -1,4 +1,4 @@
-# Terraform on Azure with IaC DevOps and SRE | Real-World 25 Demos
+# Demos for deploying infra using terraform on azure
 
 
 10. Azure Virtual Network, Subnets and Network Security Groups
