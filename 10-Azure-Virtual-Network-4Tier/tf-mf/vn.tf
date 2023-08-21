@@ -32,3 +32,10 @@ resource "azurerm_resource_group" "myrg" {
     "used for" = "virtual network" 
   }
 }
+
+resource "azurerm_virtual_network" "myvn1" {
+  name = "myvn1"
+  address_space = ["10.0.0.0/16"]
+  location = azurerm_resource_group.myrg.location
+  resource_group_name = azurerm_resource_group.myrg.name
+}
